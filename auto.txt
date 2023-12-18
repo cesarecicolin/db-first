@@ -1,0 +1,11 @@
+
+id: primary key
+targa: unique  (varchar(6) )notnull
+km_percorsi: (mediumInt) notnull
+cilindrata: (tinyint) notnull
+colore_primrio: (varchar ) notnull
+colore_secondario:(varchar ) null
+incidentata: (boolean) notnull default 0
+modello: (varchar (255) ) notnull 
+anno_imatricolazione:(year) notnull
+classe_euro: (tinyint) notnull
